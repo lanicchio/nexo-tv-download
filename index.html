@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NEXO TV</title>
+<link rel="icon" href="icon.png">
+<style>
+  :root { --navy: #060e26; --row: #10204a; --line: #23396f; --muted: #8fa3d6; --violet: #7c3aed; --blue: #3b82f6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: linear-gradient(135deg, var(--navy), #0c1c44 55%, var(--navy)); color: #fff;
+         font-family: "Segoe UI", Roboto, Arial, sans-serif; display: flex; justify-content: center; padding: 48px 16px; }
+  main { width: 100%; max-width: 720px; }
+  .logo { display: flex; align-items: center; gap: 18px; font-size: 44px; font-weight: 800; letter-spacing: 4px; }
+  .logo img { width: 72px; height: 72px; }
+  .logo b { color: var(--blue); }
+  p { color: #c9d6f5; font-size: 18px; line-height: 1.5; }
+  .btn { display: block; text-align: center; margin: 28px 0; padding: 22px; border-radius: 12px; background: var(--violet);
+         color: #fff; font-size: 26px; font-weight: 700; text-decoration: none; }
+  .btn:focus, .btn:hover { outline: 4px solid #fff; }
+  .card { background: var(--row); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin-top: 20px; }
+  .card h2 { margin: 0 0 10px; font-size: 22px; }
+  ol { margin: 0; padding-left: 22px; color: #c9d6f5; font-size: 18px; line-height: 1.7; }
+  code { background: var(--navy); border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; font-size: 18px; color: #fff; }
+  .muted { color: var(--muted); font-size: 15px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="logo"><img src="icon.png" alt="">NEXO&nbsp;<b>TV</b></div>
+  <p>Player de IPTV para Android TV, TV Box e Fire TV. Você entra com os dados (servidor, usuário e senha) que o seu provedor passou.</p>
+
+  <a class="btn" href="https://github.com/lanicchio/nexo-tv-download/releases/latest/download/nexo-tv.apk">Baixar NEXO TV para Android TV</a>
+
+  <div class="card">
+    <h2>Instalar na TV pelo Downloader</h2>
+    <ol>
+      <li>Na loja da TV (Google Play ou Amazon), instale o app <b>Downloader</b>.</li>
+      <li>Abra o Downloader e permita que ele instale apps, se a TV pedir.</li>
+      <li>No campo de endereço, digite <code>lanicchio.github.io/nexo-tv-download</code> e clique em <b>Go</b>.</li>
+      <li>Clique em <b>Baixar NEXO TV</b> e depois em <b>Instalar</b>.</li>
+    </ol>
+  </div>
+
+  <p class="muted">O NEXO TV é só um player: não fornece, vende nem transmite canais ou conteúdos. Use apenas listas que você tem direito de acessar.</p>
+</main>
+</body>
+</html>
